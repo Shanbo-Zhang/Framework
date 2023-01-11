@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Escapist">
+      <UniqueIdentifier>{1f43320e-2647-4471-8888-4aa623940173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Escapist\Common">
+      <UniqueIdentifier>{2ab84dd5-71e7-4b37-b35c-8e0f311f9d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Escapist\GUI">
+      <UniqueIdentifier>{907476a3-b3f5-4b2d-a413-48ce3a167c78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Escapist\Common\Internal">
+      <UniqueIdentifier>{990fc105-1bf8-4b3a-81fc-3600ae3f76b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Escapist\GUI\Platform">
+      <UniqueIdentifier>{d0d6bdcd-19b3-47f5-9810-2f57dbb07a15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Escapist\GUI\Platform\Windows">
+      <UniqueIdentifier>{e2afb524-8725-4ba7-8006-6e7007a988ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Escapist\Common\Internal\ReferenceCount.h">
+      <Filter>Escapist\Common\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Escapist\Common\Internal\TypeTrait.h">
+      <Filter>Escapist\Common\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Escapist\Common\ArrayList.h">
+      <Filter>Escapist\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Escapist\Common\ByteArray.h">
+      <Filter>Escapist\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Escapist\Common\Convert.h">
+      <Filter>Escapist\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Escapist\Common\Flag.h">
+      <Filter>Escapist\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Escapist\Common\Json.h">
+      <Filter>Escapist\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Escapist\Common\Socket.h">
+      <Filter>Escapist\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Escapist\Common\String.h">
+      <Filter>Escapist\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Escapist\Common\Thread.h">
+      <Filter>Escapist\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Escapist\Common\Tuple.h">
+      <Filter>Escapist\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Escapist\General.h">
+      <Filter>Escapist</Filter>
+    </ClInclude>
+    <ClInclude Include="Escapist\GUI\Application.h">
+      <Filter>Escapist\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Escapist\GUI\Window.h">
+      <Filter>Escapist\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Escapist\Common\Rect.h">
+      <Filter>Escapist\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Escapist\GUI\Font.h">
+      <Filter>Escapist\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Escapist\Common\HashMap.h">
+      <Filter>Escapist\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Escapist\GUI\Platform\Windows\WindowsWindow.h">
+      <Filter>Escapist\GUI\Platform\Windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Escapist\GUI\Platform\Windows\WinEntry.cpp">
+      <Filter>Escapist\GUI\Platform\Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
